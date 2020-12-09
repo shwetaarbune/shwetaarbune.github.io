@@ -1,0 +1,79 @@
+a{
+  font-size: larger;
+  color:red;
+  
+}
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgUkMPJIYFEn6gycRXqoEONckfiWRD_QgPg&usqp=CAU);
+}
+
+h1{
+  color:maroon;
+}
+div{ 
+  width :100%; 
+  height:435px; 
+  border : 3px solid black; 
+  border-spacing: initial;
+ } 
+ul{
+  font-size: larger;
+}
+#education{
+  text-align: center;
+ 
+}
+#achievements{
+  text-align: center;
+}
+#experience
+{
+  text-align: center;
+}
+#social{
+  text-align: center;
+}
+
+.s-box{
+	background-color:white;
+	width:350px;
+	height: 500px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	position: relative;
+}
+.b-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	
+}
+.s-b-img{
+	width: 100%;
+	height: 70%;
+	
+}
+
+.s-b-text{
+	width: 100%;
+	height: 30%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.s-box:hover{
+	transform:translateY(-10px);
+	transition: all ease 0.3s;
+	
+}
+
+@media(max-width:400px){
+	.s-box{
+		width: 100%;
+		height:400px;
+	}
+}
